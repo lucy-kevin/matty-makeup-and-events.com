@@ -1,0 +1,123 @@
+.events{
+
+
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+
+ 
+
+    
+    margin-bottom: 10px;
+}
+.events-1{
+    display: inline-block;
+    margin-right: 10px;  
+}
+.birthday-section{
+    display: block;
+    white-space: nowrap;
+    margin-left: 10px;
+    background: white;
+    transition: height 0.5s;
+    transition: margin-left 0.5s;
+    transition: background o.5s;
+    transition:
+}
+.birthday-section:hover{
+    height: 465px;
+    width: 300px;
+    
+    margin-left: 10px;
+    background: rgb(236, 231, 231);
+    box-shadow: 10px 10px 10px rgba(0,0,0, 0.3);
+    margin-bottom: 10px;
+}
+.birthday{
+    margin: 10px 0px 0px 10px;
+    
+
+    width: 280px;
+    height: 300px;
+}
+.birthdays button{
+    margin-right: 10px ;
+}
+.content{
+    width: 300px;
+    margin-left: 10px;
+}
+.main-content{
+    font-weight: bold;
+}
+.buttons{
+    margin-right: 0px;
+    margin-left: px;
+    background: rgb(13, 154, 224) ;
+    border: 3px;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+   transition: background 0.7; 
+   transition: color 0.7s;
+}
+.buttons:hover{
+    background: white;
+    color:rgb(13, 154, 224);
+}
+@media (max-width:400px) {
+    .events{
+        grid-template-columns: 1fr ;
+    }
+
+}
+@media (min-width:400px) and (max-width:900px) {
+    .events{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media(min-width: 901px) and (max-width: 999px){
+    .events{
+        grid-template-columns: 1fr 1fr 1fr;
+    }   
+}
+@media (min-width: 1000px){
+    .events{
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+    }
+}
+
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18PX;
+    color: rgb(247, 31, 243);
+}
+
+.horizontal_slider{
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+   
+
+}
+.slider_container{
+    display: block;
+    white-space: nowrap;
+}
+.item{
+    display: inline-block;
+    margin-right: 10px;
+    margin: 10px;
+
+}
+.item img{
+    width: 250px;
+
+}
+.slider-content{
+    margin-left: 10px;
+    width: 20px;
+    word-spacing: ;
+}
